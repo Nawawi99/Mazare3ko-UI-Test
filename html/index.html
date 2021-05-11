@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>MaZare3ko</title>
+
+        <!-- ################### CSS StyleSheets ################### -->
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+            integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="/css/index.css" />
+
+        <!-- ################### Bootstrap Scripts ################### -->
+        <script
+            src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"
+        ></script>
+
+        <!-- ################### Font Awesome CDN ################### -->
+        <script src="https://kit.fontawesome.com/f23353eb05.js" crossorigin="anonymous"></script>
+
+        <!-- ################### Google Fonts ################### -->
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Ubuntu&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+
+    <body>
+        <section id="title">
+            <div class="container-fluid">
+                <!-- ################### Nav Bar ################### -->
+
+                <nav class="navbar navbar-expand-lg navbar-dark" id="navig">
+                    <a class="navbar-brand" href="/html/index.html">
+                    <img src="/images/logo.png" alt="logo" class="logo"></a>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-toggle="collapse"
+                        data-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" style="color: white">Sign in</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" style="color: white" href="#faq">FAQ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" style="color: white" href="/html/posts.html">Reservations</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+
+                <!-- ################### Title ################### -->
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h1>You free but got nothing in mind? We got you covered.</h1>
+                       
+                        <a
+                            href="register.html"
+                            class="btn btn-outline-light btn-lg anchor-button"
+                            role="button"
+                        >
+                            Join us <i class="fas fa-sign-in-alt"></i>
+                        </a>
+
+                        
+                    </div>
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-5">
+                        <img class="title-image" src="/images/cata.png" alt="Villa Catalogue" />
+                        <form class="toggle-form" autocomplete="off">
+                            <label class="title-sign-in-label" for="e-mail">E-mail</label>
+                            <input class="title-sign-in-box" type="email" name="e-mail" /><br />
+                            <label class="title-sign-in-label" for="password">Password</label>
+                            <input
+                                name="password"
+                                class="title-sign-in-box"
+                                id="password-box"
+                                type="password"
+                            />
+                            <div class="show-password">
+                                <input id="show-password-checkbox" type="checkbox" />
+                                <label for="">Show password</label>
+                            </div>
+
+                            <button class="btn btn-outline-light title-sign-in-button">Sign in</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr />
+
+        <!-- ################### Features ################### -->
+
+        <section id="features">
+            <div class="row">
+                <div class="col-lg-4 features-box">
+                    <i class="fas fa-piggy-bank fa-5x"></i>
+                    <h3>NO Commission</h3>
+                    <p>It's completely free without extra payments.</p>
+                </div>
+
+                <div class="col-lg-4 features-box">
+                    <i class="fas fa-phone fa-5x"></i>
+                    <h3>Direct Contact</h3>
+                    <p>You can get in touch anytime.</p>
+                </div>
+                <div class="col-lg-4 features-box">
+                    <i class="fab fa-etsy fa-5x"></i>
+                    <h3>Easy to Use</h3>
+                    <p>Even the elders can use it.</p>
+                </div>
+            </div>
+        </section>
+        <hr />
+
+        <!-- ################### FAQ ################### -->
+
+        <section id="faq">
+            <h1>FAQ</h1>
+            <div
+                id="carousel-with-controls"
+                class="carousel slide"
+                data-ride="carousel"
+                data-interval="false"
+            >
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <h2 class="testimonial-text">What is MaZare3ko?</h2>
+
+                        <p>
+                            MaZare3ko is a new website aimed at helping you find your partying place in the
+                            most convenient and fastest way there is.
+                        </p>
+                    </div>
+                    <div class="carousel-item">
+                        <h2>What are the availabe payment methods?</h2>
+
+                        <p>
+                            You can pay online by credit card, or you can pay with cash after contacting the
+                            renter
+                        </p>
+                    </div>
+                    <div class="carousel-item">
+                        <h2>how can I pay without an online method?</h2>
+
+                        <p>
+                            If you happen to not have an online payment method, you can always pay by cash by
+                            contacting the renter
+                        </p>
+                    </div>
+
+                    <div class="carousel-item">
+                        <h2>I have a farm, how can i offer it for renting?</h2>
+
+                        <p>You can press the join us button above to register and offer it for renting</p>
+                    </div>
+                </div>
+                <a
+                    class="carousel-control-prev on-focus-fix"
+                    href="#carousel-with-controls"
+                    role="button"
+                    data-slide="prev"
+                >
+                    <i class="fas fa-arrow-left fa-lg"></i>
+                </a>
+                <a
+                    class="carousel-control-next on-focus-fix"
+                    href="#carousel-with-controls"
+                    role="button"
+                    data-slide="next"
+                >
+                    <i class="fas fa-arrow-right fa-lg"></i>
+                </a>
+            </div>
+        </section>
+        <hr />
+
+        <!-- ################### Offers ################### -->
+
+        <section id="offers">
+            <div class="offer-header-title">
+                <h2>What we offer</h2>
+                <p>Simple and affordable for everyone.</p>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-2"></div>
+                <div class="col-lg-4 margin-right col-md-6">
+                    <img class="offers-image" src="/images/trust.png" alt="" />
+                    <h1>Lorem, ipsum dolor.</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum nesciunt soluta
+                        animi ea nostrum beatae, eveniet itaque eum provident omnis!
+                    </p>
+                </div>
+                <div class="col-lg-4 margin-left col-md-6">
+                    <img class="offers-image" src="/images/protection.png" alt="" />
+                    <h1>Lorem, ipsum dolor.</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum nesciunt soluta
+                        animi ea nostrum beatae, eveniet itaque eum provident omnis!
+                    </p>
+                </div>
+                <div class="col-lg-2"></div>
+            </div>
+            <div class="row">
+                <div class="col-lg-2"></div>
+                <div class="col-lg-4 margin-right col-md-6">
+                    <img class="offers-image" src="/images/affordable.png" alt="" />
+                    <h1>Lorem, ipsum dolor.</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum nesciunt soluta
+                        animi ea nostrum beatae, eveniet itaque eum provident omnis!
+                    </p>
+                </div>
+                <div class="col-lg-4 margin-left col-md-6">
+                    <img class="offers-image" src="/images/magnifying-glass.png" alt="" />
+                    <h1 id="title-fit">Lorem, ipsum dolor.</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum nesciunt soluta
+                        animi ea nostrum beatae, eveniet itaque eum provident omnis!
+                    </p>
+                </div>
+                <div class="col-lg-2"></div>
+            </div>
+        </section>
+
+        <!-- ################### Footer ################### -->
+        <section id="footer-section">
+            <div>
+                <a href="#"
+                    ><i class="fab fa-instagram social-media-icons fa-2x"></i
+                ></a>
+                <a href="#"
+                    ><i class="fab fa-facebook social-media-icons fa-2x"></i
+                ></a>
+                <a href="#"
+                    ><i class="fab fa-twitter social-media-icons fa-2x"></i
+                ></a>
+                <a href="#"
+                    ><i class="fas fa-envelope social-media-icons fa-2x"></i
+                ></a>
+            </div>
+        </section>
+        <div class="container-fluid">
+            <div class="row"  id="clouds">
+
+            </div>
+        </div>
+
+        <!-- JS SCRIPTS -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="/javascript/index.js"></script>
+    </body>
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Mazare3ko</title>
+    </head>
+    <!-- ################### CSS StyleSheets ################### -->
+    <link
+        rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/css/register.css" />
+
+    <!-- ################### Bootstrap Scripts ################### -->
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"
+    ></script>
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"
+    ></script>
+    <script
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"
+    ></script>
+    <script src="https://kit.fontawesome.com/f23353eb05.js" crossorigin="anonymous"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Ubuntu&display=swap"
+        rel="stylesheet"
+    />
+
+    <body>
+        <div class="container-fluid">
+            <!-- ################### Nav Bar ################### -->
+
+            <nav class="navbar navbar-expand-lg navbar-dark" id="navig">
+                <a class="navbar-brand" href="/html/index.html"><img src="/images/logo.png" alt="logo" class="logo"></a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link disabled-href" href="/html/register.html" style="color: white">Sign in</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color: white" href="/html/posts.html">Reservations</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="container" id="container">
+            <div class="form-container sign-up-container">
+                <form id="sign-up-form" action="/html/posts.html" method="GET" autocomplete="off">
+                    <h1 class="sign-up-header">Create Account</h1>
+                    <br />
+
+                    <input class="reg-input" type="text" placeholder="First Name" id="first-name" />
+
+                    <input class="reg-input" type="text" placeholder="Last Name" id="last-name" />
+
+                    <input class="reg-input" type="text" placeholder="Email address" id="email-address" />
+
+                    <select name="type" required>
+                        <option disabled selected>Sign Up as</option>
+                        <option name="user-type">Landlord</option>
+                        <option name="user-type">Customer</option>
+                    </select>
+                    <input
+                        class="reg-input"
+                        type="tel"
+                        placeholder="Phone number"
+                        id="phone-number"
+                        required
+                    />
+
+                    <input class="reg-input" type="password" placeholder="Password" id="password" />
+                    <p class="error-message"></p>
+
+                    <br />
+                    <button id="sign-up-button">Sign Up</button>
+                </form>
+            </div>
+            <div class="form-container sign-in-container" id="lalo">
+                <form method="GET"  action="/html/posts.html" autocomplete="off">
+                    <h1>Sign in</h1>
+                    <br />
+                    <input class="login-input" type="email" placeholder="Email" />
+                    <input class="login-input" type="password" placeholder="Password" />
+                    <p class="error-message"></p>
+                    <button>Sign In</button>
+                </form>
+            </div>
+            <div class="overlay-container">
+                <div class="overlay">
+                    <div class="overlay-panel overlay-left">
+                        <h1>Welcome Back!</h1>
+                        <p>Login in to view the latest offers</p>
+                        <button class="ghost" id="signIn">Sign In</button>
+                    </div>
+                    <div class="overlay-panel overlay-right">
+                        <h1>Greetings</h1>
+                        <p>Welcome to Mazare3ko</p>
+                        <button class="ghost" id="signUp">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="/javascript/register.js" defer></script>
+    </body>
+</html>

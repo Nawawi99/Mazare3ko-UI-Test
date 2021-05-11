@@ -1,0 +1,336 @@
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+
+
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  background-color: #2D9F91;
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+  background-repeat:repeat;
+}
+
+hr{
+  background-color: #fff;
+  height:2px;
+  max-width: 30%;
+}
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+p{
+    font-family: "Montserrat", sans-serif;
+    color: #3a3939;
+    line-height: 1.5;
+}
+h3{
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+h2{
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+/* Navigation Bar */
+.logo{
+  max-width:130px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.navbar {
+  padding: 0 0 2.88rem;
+  
+}
+
+.nav-item {
+  padding: 0 1.125rem;
+}
+
+.nav-link {
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+/* Buttons */
+.anchor-button {
+  margin: 5% 9% 15% 0%;
+}
+.anchor-button:hover {
+  color: #2D9F91; 
+}
+
+/* Title Image */
+.title-image {
+  width: 109%;
+  /* transform: rotate(5deg); */
+  margin-bottom: 10%;
+  position:absolute;
+  border-radius: 30px;
+  right:5%;
+  
+  /* display: none; */
+
+}
+
+/* TITLEE */
+
+#title {
+  color: #f4f4f4;
+  transition: opacity 1s ease-in;
+   
+}
+
+
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.toggle-form{
+  display: none;
+  border: #ffff 3px solid;
+  border-radius: 10px;
+  padding:10px;
+  text-align: center;
+  font-size:20px;
+  transition: background-color 1.5s, border 1.5s;
+}
+
+.title-sign-in-label{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  display: block;
+  font-size: 22px;
+  transition: font-size 0.4s;
+}
+
+.show-password{
+  display: inline;
+  font-size: 13px;
+}
+
+.title-sign-in-box{
+  font-size: 17px;
+  outline: none;
+  border: none;
+  padding: 5px;
+  margin: 15px auto;
+  display:block;
+  text-align: center;
+  color: #2D9F91;
+  border-bottom: #fff 2px solid;
+  width:60%;
+  border-radius: 0px;
+  transition: width 1s, border-radius 0.75s, border 0.75s; 
+  
+}
+
+.title-sign-in-box:focus{
+  width:80%;
+  border-radius: 10px;
+  color: #2D9F91;
+}
+
+.title-sign-in-button{
+  text-align: center;
+  display: block;
+  margin: 40px auto 10px auto;
+
+}
+.title-sign-in-button:hover, :focus{
+  color: #2D9F91;
+  background-color: #fff;
+  
+}
+
+.title-footer-image{
+  width: 50%;
+  position: absolute;
+}
+
+
+/* Features Section Styling */
+
+#features{ 
+    position: relative;
+    text-align: center; 
+    margin: 0 5% 0 5%; 
+    /* background-image: url("/images/light.jpg"); */
+    
+}
+
+#features h3{
+  color: #ffff;
+}
+#features p{
+  color: #ffff;
+}
+
+
+.features-box{
+    padding: 8% 7%;
+}
+
+    
+.features-box .fas, .fab{
+    color:  #f4f4f4;
+    margin-bottom: 1.5rem;
+}
+
+
+/* Testimanials Section Styling */
+
+#faq{
+  text-align: center;
+  color: #fff;
+  padding-top: 75px;
+  height:650px;
+}
+
+.testi-image{
+  margin: 6%;
+  margin-bottom: 3%;
+  width: 150px;
+  border-radius: 100%;
+  height: 150px;
+}
+
+.carousel-item{
+  padding: 8% 15%;
+}
+
+#faq .fas{
+  color: #ffff;
+}
+
+#faq h1{
+  margin-top:3%;
+  font-size:3.5rem;
+}
+
+#faq h2{
+  font-size: 1.8rem;
+}
+#faq p{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: #fff;
+  margin-top: 50px;
+}
+
+a:focus{
+    
+    
+    background-color: transparent;
+}
+
+
+
+/* offers Section Styling */
+
+
+.margin-right{
+  margin-right:15px;
+  
+}
+
+.margin-left{
+  margin-left:15px
+}
+
+
+#offers{
+  padding:100px;
+  text-align: center;
+  
+}
+
+.offers-image{
+  width: 30%;
+}
+#offers p {
+  color: #fff;
+}
+#offers h1 {
+  color: #fff;
+}
+
+
+
+.offer-header-title{
+  margin-bottom:5rem;
+  color: #fff;
+}
+
+
+/* Footer Section Styling */
+#footer-section{
+  padding: 2%;
+  text-align: center;
+}
+
+.social-media-icons{
+  padding: 1% 1%;
+}
+
+#footer-section i{
+  color: #ffff;
+  bottom: 0;
+  transition: bottom, color, background-color, 0.5s;
+}
+
+#footer-section i:hover{
+  color:#2D9F91;
+  position: relative;
+  bottom:5px;
+  border: 1px solid #f4f4f4;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+/* Media Query */
+
+@media (max-width:991px){
+  .title-image {
+    width: 100%;
+    position: static;
+   }
+   #title{
+     text-align: center;
+   }
+}
+
+@media(max-width:1175px){
+  .margin-left{
+    margin-left:0px;
+  }
+  .margin-right{
+    margin-right: 0px;
+  }
+
+  #offers h1{
+    font-size:38px;
+  }
+}
+
+
+
+
